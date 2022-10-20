@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stajyer Formu</title>
+</head>
+<body><br>
+    <form action="tekin.php" target="_blank">
+      <fieldset>
+            <legend><b>Stajyer Başvuru Formu</b></legend>
+        <table>
+            <tr  style="height:50px"> 
+                <td><label for="adi">İsim:</label></td>
+                <td ><input type="text" id="adi" name="adı" placeholder="Ad"  required ></td>
+                <td><input type="text" id="soyad" name="soyad" placeholder="Soyad" required></td>
+            </tr>
+            <tr style="height:50px">
+                <td><label for="Dtarih">Doğum Tarihi:</label></td>
+                <td colspan="2"><input type="date" id="Dtarih" name="Dtarih"></td>
+                
+            </tr>
+            <tr style="height:50px">
+                <td><label for="Telefon">Telefon Numarası:</label></td>
+                <td><input type="tel" id="Telefon" name="TelefonAkod" placeholder="Alan kodu" required></td>
+                <td><input type="tel" id="Telefon2" name="TelefonNumara" placeholder="Numara" required></td>
+            </tr>
+            <tr style="height:50px">
+                <td><label  for="email">E-mail Adresi:</label></td>
+                <td colspan="2"><input type="email" id="email" name="email" placeholder="örn: tekin@tunc.com" required></td>
+            </tr>
+            <tr style="height:50px">
+                <td><label for="twitter">Twitter Kullanıcı Adı:</label></td>
+                <td colspan="2"><input type="text" id="twitter" required></td>
+            </tr>
+            <tr style="height:50px">
+                <td> <label for="instagram">İnstagram Kllanıcı Adı:</label></td>
+                <td colspan="2"><input type="text" id="instagram" name="instagram" required ></td>
+            </tr>
+            <tr style="height:50px">
+                <td><label for="Furl">Facebook Url:</label></td>
+                <td colspan="2"><input type="url" id="Furl" name="url" required></td>
+            </tr>
+            <tr style="height:50px">
+                <td><label for="adres">Adres:</label></td>
+                <td><input type="text" id="adres" name="adresil" placeholder="İl" required></td>
+                <td><input type="text" id="adres2" name="adresilce" placeholder="İlçe" required></td>
+            </tr>
+            <tr style="height:50px">
+                <td>Bizi nanasıl buldunuz?</td>
+                <td> 
+                    
+                    <input type="checkbox" id="tw" name="nasil1">
+                    <label for="tw">Twitter</label><br>
+                    <input type="checkbox" id="inst" name="nasil2">
+                    <label for="inst"> İnstagram</label>
+                </td>
+
+                    <td><input type="checkbox" id="face" name="nasil3">
+                        <label for="face"> Facebook</label>
+                    </td>
+            </tr>
+            <tr style="height:50px">
+                <td><label for="dosya">CV'nizi Yükleyin:</label></td>
+                <td colspan="2"><input type="file" id="dosya" name="CVdosya"></td>
+            </tr>
+            <tr style="height:50px">
+                <td><label for="resim">Resminizi Yükleyin:</label></td>
+                <td colspan="2"><input type="file" id="resim" name="resim" accept="image/*" ></td>
+            </tr>
+            <tr style="height:50px">
+                <td><P>Pozisyon</P></td>
+                <td colspan="2" ><input type="checkbox" id="pozisyon1" name="pozisyon1" value="osyal Medya Yöneticisi">
+                    <label for="pozisyon1">Sosyal Medya Yöneticisi</label><br>
+                    <input type="checkbox" id="pozisyon2" name="pozisyon2" value="Kreatif Takım">
+                    <label for="pozisyon2">Kreatif Takım</label><br>
+                    <input type="checkbox" id="pozisyon3" name="pozisyon3" value="Pazarlama Takımı">
+                    <label for="pozisyon3">Pazarlama Takımı</label><br>
+                    <input type="checkbox" id="pozisyon4" name="pozisyon4" value="Etkinlik Planlama Takımı">
+                    <label for="pozisyon4">Etkinlik Planlama Takımı</label><br>
+                    <input type="checkbox" id="pozisyon5" name="pozisyon5" value="Tasarım Takımı">
+                    <label for="pozisyon5">Tasarım Takımı</label><br>
+                    <input type="checkbox" id="pozisyon6" name="pozisyon6" value="Yönetim Asistanlığı">
+                    <label for="pozisyon6">Yönetim Asistanlığı</label>                   
+                </td>
+                
+            </tr>
+            <tr style="height:50px">
+                <td><label for="kolej">Kolej</label></td>
+                <td colspan="2"><input type="text" id="kolej" required></td>
+            </tr>
+            <tr style="height:50px">
+                <td><label for="yil">Mezuniyet Yılı</label></td>
+                <td colspan="2"><input type="text" id="yil" required></td>
+            </tr>
+            <tr>
+                <td><label for="neden1">Neden bizde stajyer olmak istiyorsunuz?</label></td>
+                <td colspan="2"><textarea id="neden1" name="neden" rows="6" cols="40" required></textarea></td>
+            </tr>
+            <tr>
+                <td><label for="neden2">Siyah mental sağlık sizin için ne ifade ediyor?</label></td>
+                <td colspan="2"><textarea id="neden2" name="neden" rows="6" cols="40" required></textarea></td>
+            </tr>
+            <tr>
+                <td><label for="neden3">Siyah mental sağlık sizin için neden önemli?</label></td>
+                <td colspan="2"><textarea id="neden3" name="neden" rows="6" cols="40" required></textarea></td>
+            </tr>
+            <tr>
+                <td><label for="neden4"> Siyah kadın sihri sizin için ne ifade ediyor? </label></td>
+                <td colspan="2"><textarea id="neden4" name="neden" rows="6" cols="40" required></textarea></td>
+            </tr>
+            <tr>
+                <td colspan="3" style="text-align:center"><input type="submit" value="BAŞVURUYU GÖNDER"></td>
+            </tr>
+         </table> 
+     </fieldset>
+    </form>
+  </body>
+</html>
